@@ -1,0 +1,17 @@
+#1. Edita el archivo mkdocs.yml para personalizar el sitio web. Debe contener como mínimo las siguientes páginas:
+
+#Inicio
+#Guía de Instalación Windows 11
+#Especificaciones Técnicas iPhone 16
+#Descarga de la documentación en formato PDF
+
+site_name: My Docs
+
+nav:
+  - Inicio: index.md
+  - Guía de Instalación Windows 11: instalacion_windows11.md
+  - Especificaciones Técnicas iPhone 16: especificaciones_iphone16.md
+  - Descarga de la documentación en formato PDF: download_pdf.md
+
+theme:
+  name: 'readthedocs'
